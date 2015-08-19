@@ -43,7 +43,8 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-	color: #BDBDBD;
+	/*color: #BDBDBD;*/
+	color: rgba(255,255,255,.7)
 }
 
 p {
