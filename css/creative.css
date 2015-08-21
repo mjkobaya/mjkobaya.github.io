@@ -17,7 +17,7 @@ body {
 hr {
     max-width: 50px;
     /*border-color: #f05f40;*/
-	border-color: rgba(255,255,255,.8);
+	border-color: rgba(255,255,255,.7);
     border-width: 3px;
 }
 
@@ -39,7 +39,6 @@ a:focus {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -49,6 +48,11 @@ h6 {
 	color: rgba(255,255,255,.8);
 }
 
+h2 {
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	color: #000000;
+}
+
 p {
     margin-bottom: 20px;
     font-size: 16px;
@@ -56,7 +60,8 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    /*background-color: #f05f40;*/
+	background-color: #FAFAFA;
 }
 
 .bg-dark {
@@ -65,7 +70,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(0,0,0,.7);
 }
 
 section {
@@ -132,7 +137,8 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: rgba(255,255,255,.8);
+		font-size: 25px;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -152,17 +158,20 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        /*background-color: #fff;*/
+		background-color: #FAFAFA;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 14px;
-        color: #f05f40;
+        font-size: 20px;
+        /*color: #f05f40;*/
+		color: #eb7017;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        /*color: #eb3812;*/
+		color: #d65f14;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -222,7 +231,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 10px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.8);
 }
 
 @media(min-width:768px) {
@@ -400,10 +409,11 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
     /*border-color: #f05f40;*/
-	border-color: #FFAB70;
-    color: #fff;
+	border-color: #FAFAFA;
+    /*color: #fff;*/
+	color: #eb7017;
     /*background-color: #f05f40;*/
-	background-color: #FFAB70;
+	background-color: #FAFAFA;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
