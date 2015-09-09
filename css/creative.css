@@ -2,7 +2,6 @@
  * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- * Will my changes sync?
  */
 
 html,
@@ -13,6 +12,7 @@ body {
 
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+	background-color: #F5F5F5;
 }
 
 hr {
@@ -23,7 +23,7 @@ hr {
 }
 
 hr.light {
-    border-color: #fff;
+    border-color: #f05f40;
 }
 
 a {
@@ -356,9 +356,9 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    border-color: #F05F40;
+    color: #FFFFFF;
+    background-color: #F05F40;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -370,9 +370,9 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    border-color: #ededed;
-    color: #222;
-    background-color: #f2f2f2;
+    border-color: #EB3812;
+    color: #f2f2f2;
+    background-color: #EB3812;
 }
 
 .btn-default:active,
