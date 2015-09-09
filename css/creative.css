@@ -208,6 +208,7 @@ header .header-content {
 }
 
 header .header-content .header-content-inner .image-holder {
+	margin-top: .5cm;
 	width: auto;
   	display: inline-block; 	
 }
