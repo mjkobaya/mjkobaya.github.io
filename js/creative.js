@@ -44,5 +44,12 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
-
+	
+	// Trying bx image slider
+  	//$('.bxslider').bxSlider();
+	
 })(jQuery); // End of use strict
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
