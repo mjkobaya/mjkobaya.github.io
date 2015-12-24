@@ -50,6 +50,12 @@
 	
 })(jQuery); // End of use strict
 
-$(document).ready(function(){
-  $('.bxslider').bxSlider();
+$(document).ready(function($) {
+	$('.slider').unslider();
+});
+
+$(document).ready(function($) {
+	$('.bxslider').bxSlider({
+		adaptiveHeight: true
+	});
 });
