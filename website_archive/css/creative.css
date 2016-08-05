@@ -627,3 +627,15 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+img.mySlides {
+	max-width: 500px;
+	max-height: 500px;
+	margin: inherit;
+}
+
+.img-slider {
+	height: 500px;
+    width: 500px;
+	margin: auto;
+}
